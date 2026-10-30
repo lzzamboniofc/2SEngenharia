@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1250" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a4aaa4"/><stop offset=".47" stop-color="#d4c8b9"/><stop offset="1" stop-color="#a89d8c"/></linearGradient>
+ <linearGradient id="wall" x2="1" y2=".2"><stop stop-color="#969991"/><stop offset=".6" stop-color="#d9d7cd"/><stop offset="1" stop-color="#b4b4ac"/></linearGradient>
+ <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#51615e"/><stop offset=".7" stop-color="#242f2f"/><stop offset="1" stop-color="#161e1f"/></linearGradient>
+ <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#9a9587"/><stop offset="1" stop-color="#68695f"/></linearGradient>
+ <filter id="grain"><feTurbulence baseFrequency=".15" numOctaves="3" seed="8" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".08"/></feComponentTransfer></filter>
+</defs>
+<rect width="900" height="1250" fill="url(#sky)"/>
+<path d="M0 630 L900 550 L900 1250 H0" fill="url(#ground)"/>
+<path d="M0 960 L900 795 L900 885 L0 1050" fill="#bbb9ac" opacity=".7"/>
+<path d="M205 350 L840 285 L900 319 L900 950 L190 1045 Z" fill="#a7a9a2"/>
+<path d="M365 392 L860 347 L860 850 L365 914 Z" fill="url(#glass)"/>
+<path d="M398 420 L835 380 L835 804 L398 864 Z" fill="#75827d" opacity=".36"/>
+<path d="M625 380 V835 M396 635 L860 580" fill="none" stroke="#d9d8cc" stroke-width="18" opacity=".75"/>
+<path d="M0 370 L605 300 L637 460 L0 535" fill="url(#wall)"/>
+<path d="M0 520 L347 472 L359 1120 L0 1184" fill="#b5b5aa"/>
+<path d="M0 525 L341 475 L341 555 L0 604" fill="#d1d0c6"/>
+<path d="M68 590 L276 561 L276 946 L68 973" fill="#3c4843"/>
+<path d="M80 600 L263 575 L263 930 L80 953" fill="#586b66"/>
+<path d="M175 590 L175 940 M75 775 L272 752" stroke="#d0cdc2" stroke-width="12"/>
+<path d="M350 1000 L900 900 L900 985 L350 1080" fill="#d5d2c9"/>
+<path d="M415 932 L900 851" stroke="#dddbd0" stroke-width="14"/>
+<path d="M500 882 L500 1022 M780 834 L780 958" stroke="#777b71" stroke-width="4"/>
+<path d="M0 1110 L900 954 V1250 H0" fill="#6d7468"/>
+<path d="M0 1080 Q150 1010 315 1080 T670 1080 T900 1030 L900 1250 H0" fill="#667264" opacity=".8"/>
+<g opacity=".88"><path d="M75 1120 Q45 1020 84 940 Q114 1020 75 1120" fill="#454f44"/><path d="M107 1120 Q92 985 144 900 Q159 1045 107 1120" fill="#525f50"/><path d="M833 1050 Q800 955 850 875 Q881 990 833 1050" fill="#48584a"/></g>
+<rect width="900" height="1250" filter="url(#grain)" opacity=".6"/>
+</svg>

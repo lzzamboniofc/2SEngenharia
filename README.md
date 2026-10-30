@@ -1,6 +1,6 @@
 # 2S Engenharia e Construtora Itu — Prévia conceitual
 
-Site institucional estático e responsivo, sem contadores fictícios nem numeração decorativa, criado como **demonstração comercial independente**. Ainda não é um site oficial da empresa.
+Site institucional estático e responsivo criado como **demonstração comercial independente**. Ainda não é um site oficial da empresa.
 
 ## Como visualizar
 
