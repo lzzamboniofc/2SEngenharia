@@ -17,7 +17,7 @@ Abra `index.html` no navegador, ou publique os arquivos na raiz (`/`) da branch 
 
 1. **Marca:** símbolo tipográfico "2S" e cores são uma proposta criativa, não o logotipo oficial. Substituir pela identidade autorizada.
 2. **Fotografias:** imagens ilustrativas do Unsplash carregadas de `images.unsplash.com`. Não são projetos da 2S. Trocar por fotografias de obras reais aprovadas e conferir direitos de uso das imagens antes de qualquer lançamento.
-3. **Portfólio:** seção "Inspirações" é demonstrativa. Projetos próprios só devem ser publicados após autorização.
+3. **Portfólio:** seção "Galeria de referências" é demonstrativa. Projetos próprios só devem ser publicados após autorização.
 4. **Serviços:** descrição baseada na apresentação pública da empresa no GuiaFix (projetos, construção, reformas, regularização, gestão de obras, móveis planejados, esquadrias); confirmar escopo atual.
 5. **Contato:** WhatsApp (11) 97518-0386, e-mail 2s.engennharia@gmail.com e região de Itu encontrados em cadastros públicos. Conferir diretamente com o estabelecimento antes de campanha ou publicação.
 6. **SEO:** o arquivo tem `<meta name="robots" content="noindex,nofollow">` para não indexar a prévia. Remover somente na versão autorizada e configurar domínio, imagem OG e informações finais.
@@ -34,3 +34,7 @@ Abra `index.html` no navegador, ou publique os arquivos na raiz (`/`) da branch 
 ## Fotografia demonstrativa
 
 Fotografias de referência são chamadas por URLs do **Unsplash**, sujeitas a acesso à rede e respectiva licença. Se necessário, é possível armazenar versões licenciadas localmente após verificar direitos de uso. A autoria dos projetos fotografados **não pertence à 2S**.
+
+## Revisão DesIA 2.0 (novembro/2026)
+
+Revisão textual e de interface feita a partir do script `desia-2.0`: menos slogans, excesso de caixa alta, setas repetidas e efeitos de vidro. Identidade visual e arquitetura estática foram mantidas. A auditoria visual automatizada do navegador foi bloqueada no ambiente de execução; verificar manualmente desktop e mobile após deploy.
